@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🧠 Memory Card Game</h1>
+
+        <div class="info">
+            <div id="timer">Time: 02:00</div>
+            <div id="moves">Moves: 0</div>
+            <button id="restart">Restart</button>
+        </div>
+
+        <div class="game-board" id="gameBoard">
+            <!-- Cards will be created by JavaScript -->
+        </div>
+
+        <div id="winMessage" class="hidden">
+            <h2>🎉 Congratulations!</h2>
+            <p>You matched all 24 cards!</p>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+
+        <div id="loseMessage" class="hidden">
+            <h2> Sorry You Lose!</h2>
+            <p>Times Up Try again!</p>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
