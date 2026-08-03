@@ -182,6 +182,10 @@ h1{
         gap:10px;
     }
 
+     #winMessage, #loseMessage{
+        width: 350px;
+    }
+
     .front,
     .back{
         font-size:32px;
